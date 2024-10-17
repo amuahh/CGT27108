@@ -1763,7 +1763,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
+		color: #2F323A;
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1794,7 +1794,7 @@ input, select, textarea {
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #2F323A;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -2694,30 +2694,31 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #E5D0F9;
-		color: #d2f2e9;
+		color: #2F323A;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
 		top: 0;
+		padding-top: 10%;
 		width: 23em;
 		right: 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #2F323A;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #2F323A;
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #2F323A;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #2F323A;
 		}
 
 			#header a:hover {
@@ -2768,7 +2769,8 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #2F323A;
+				font-size: 20px;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
