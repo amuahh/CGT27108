@@ -2740,10 +2740,10 @@ input, select, textarea {
 			align-items: center;
 			width: auto;
 			height: auto;
-			background-color: #4acaa8;
-			color: white;
-			border: 5px solid #10a07a;
-			font-size: auto;
+			background-color: #E5D0F9;
+			color: #2F323A;
+			border: 5px solid #7D589F;
+			font-size: 24px;
 			border-radius: 30px;
 			text-align: center;
 			}
@@ -3266,6 +3266,14 @@ input, select, textarea {
 				transform: translateX(-17em);
 			}
 
+			.bulletin{
+				display: grid; /* Use CSS Grid */
+				grid-template-columns: repeat(2, 1fr); /* 2 columns */
+				grid-template-rows: repeat(2, 1fr); /* 2 rows */
+				gap: 10px; /* Space between grid items */
+				width: 100%; /* Full width */
+				height: 100%; /* Full height */
+			}
 	}
 
 /* XSmall */
