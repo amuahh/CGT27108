@@ -2734,17 +2734,93 @@ input, select, textarea {
 			flex-grow: 1;
 		}
 
+		.likes{
+			display: flex;
+			gap: 5px;
+			-moz-flex-grow: 1;
+			-webkit-flex-grow: 1;
+			-ms-flex-grow: 1;
+			flex-grow: 1;
+		}
+
+		.likes-grid-item {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: auto;
+			height: auto;
+			font-size: 20px;
+			text-align: center;
+			}
+
+		/* placeholder colors */
+		#dance{
+			background-color: #b7eadc;
+			color: #2F323A;
+			border: 3px solid #5eaf99;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#culture{
+			background-color: #b7dcea;
+			color: #2F323A;
+			border: 3px solid #6db1c9;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#volun{
+			background-color: #e9c3ef;
+			color: #2F323A;
+			border: 3px solid #d891e3;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#perform{
+			background-color: #efaeae;
+			color: #2F323A;
+			border: 3px solid #db7878;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#perform{
+			background-color: #efe8ae;
+			color: #2F323A;
+			border: 3px solid #e5d969;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#arts{
+			background-color: #d6efae;
+			color: #2F323A;
+			border: 3px solid #a2d256;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#tech{
+			background-color: #aeb0ef;
+			color: #2F323A;
+			border: 3px solid #868aeb;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
 		.grid-item {
 			display: flex;
-			padding: 20px;
+			padding: 10px;
 			justify-content: center;
 			align-items: center;
 			width: auto;
 			height: auto;
 			background-color: #E5D0F9;
 			color: #2F323A;
-			border: 5px solid #7D589F;
-			font-size: 24px;
+			border: 3px solid #7D589F;
+			font-size: 20px;
 			border-radius: 30px;
 			text-align: center;
 			}
@@ -2844,7 +2920,7 @@ input, select, textarea {
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 4px #f4f4f4;
 	}
 
 		#main > section > .container {
@@ -3271,6 +3347,15 @@ input, select, textarea {
 			.bulletin{
 				display: grid; /* Use CSS Grid */
 				grid-template-columns: repeat(2, 1fr); /* 2 columns */
+				grid-template-rows: repeat(2, 1fr); /* 2 rows */
+				gap: 10px; /* Space between grid items */
+				width: 100%; /* Full width */
+				height: 100%; /* Full height */
+			}
+
+			.likes{
+				display: grid; /* Use CSS Grid */
+				grid-template-columns: repeat(3, 1fr); /* 2 columns */
 				grid-template-rows: repeat(2, 1fr); /* 2 rows */
 				gap: 10px; /* Space between grid items */
 				width: 100%; /* Full width */
