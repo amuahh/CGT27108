@@ -29,7 +29,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
+/* header css*/
+
+.logo img{
+	/*position: absolute;*/
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.first-logo{
+	max-width: 6%;
+	max-height: 6%;
+}
+
+.second-logo{
+	max-width: 10%;
+	max-height: 10%;
+}
+
+	body {
 	line-height: 1;
 }
 
