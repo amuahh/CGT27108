@@ -1991,11 +1991,11 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-<<<<<<< HEAD
+HEAD
 			border-color: #7D589F;
-=======
+
 			border-color: #e5d0f9;
->>>>>>> a615ec4df19b5334ecba3232b64bcb73ad08e91f
+			 a615ec4df19b5334ecba3232b64bcb73ad08e91f
 		}
 
 	input[type="checkbox"] + label:before {
