@@ -110,7 +110,6 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1763,7 +1762,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
+		color: #2F323A;
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1794,7 +1793,7 @@ input, select, textarea {
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #2F323A;
 			font-size: 1.75em;
 			font-weight: 700;
 			margin-top: -0.75em;
@@ -2694,34 +2693,35 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #E5D0F9;
-		color: #d2f2e9;
+		color: #2F323A;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
 		top: 0;
+		padding-top: 10%;
 		width: 23em;
 		right: 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #2F323A;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #2F323A;
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: #2F323A;
 		}
 
 		#header a {
-			color: #d2f2e9;
+			color: #2F323A;
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #7d589f !important;
 			}
 
 		.bulletin{
@@ -2733,17 +2733,93 @@ input, select, textarea {
 			flex-grow: 1;
 		}
 
+		.likes{
+			display: flex;
+			gap: 5px;
+			-moz-flex-grow: 1;
+			-webkit-flex-grow: 1;
+			-ms-flex-grow: 1;
+			flex-grow: 1;
+		}
+
+		.likes-grid-item {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: auto;
+			height: auto;
+			font-size: 20px;
+			text-align: center;
+			}
+
+		/* placeholder colors */
+		#dance{
+			background-color: #b7eadc;
+			color: #2F323A;
+			border: 3px solid #5eaf99;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#culture{
+			background-color: #b7dcea;
+			color: #2F323A;
+			border: 3px solid #6db1c9;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#volun{
+			background-color: #e9c3ef;
+			color: #2F323A;
+			border: 3px solid #d891e3;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#perform{
+			background-color: #efaeae;
+			color: #2F323A;
+			border: 3px solid #db7878;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#perform{
+			background-color: #efe8ae;
+			color: #2F323A;
+			border: 3px solid #e5d969;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#arts{
+			background-color: #d6efae;
+			color: #2F323A;
+			border: 3px solid #a2d256;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
+		#tech{
+			background-color: #aeb0ef;
+			color: #2F323A;
+			border: 3px solid #868aeb;
+			border-radius: 30px;
+			padding: 20px;
+		}
+
 		.grid-item {
 			display: flex;
-			padding: 20px;
+			padding: 10px;
 			justify-content: center;
 			align-items: center;
 			width: auto;
 			height: auto;
 			background-color: #E5D0F9;
 			color: #2F323A;
-			border: 5px solid #7D589F;
-			font-size: 24px;
+			border: 3px solid #7D589F;
+			font-size: 20px;
 			border-radius: 30px;
 			text-align: center;
 			}
@@ -2768,8 +2844,8 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
-				font-style: italic;
+				color: #2F323A;
+				font-size: 20px;
 				margin: 1em 0 0 0;
 			}
 
@@ -2842,7 +2918,7 @@ input, select, textarea {
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: none;
 	}
 
 		#main > section > .container {
@@ -3269,6 +3345,15 @@ input, select, textarea {
 			.bulletin{
 				display: grid; /* Use CSS Grid */
 				grid-template-columns: repeat(2, 1fr); /* 2 columns */
+				grid-template-rows: repeat(2, 1fr); /* 2 rows */
+				gap: 10px; /* Space between grid items */
+				width: 100%; /* Full width */
+				height: 100%; /* Full height */
+			}
+
+			.likes{
+				display: grid; /* Use CSS Grid */
+				grid-template-columns: repeat(3, 1fr); /* 2 columns */
 				grid-template-rows: repeat(2, 1fr); /* 2 rows */
 				gap: 10px; /* Space between grid items */
 				width: 100%; /* Full width */
