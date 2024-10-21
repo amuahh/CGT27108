@@ -2701,7 +2701,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #E5D0F9;
-		color: #d2f2e9;
+		color: #E5D0F9;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2712,23 +2712,23 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #2F323A;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #2F323A;
 			}
 
 		#header header p {
-			color: #ffffff;
+			color: #2F323A;
 		}
 
 		#header a {
-			color: #ffffff;
+			color: #2F323A;
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #7D589F !important;
 			}
 
 		#header > header {
@@ -2751,7 +2751,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #ffffff;
+				color: #2F323A;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2789,7 +2789,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #E5D0F9;
 					display: block;
 					padding: 0;
 				}
@@ -2800,7 +2800,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #ffffff !important;
+						color: #2F323A !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -2808,7 +2808,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #7D589F !important;
 						}
 
 					#header > nav ul li:first-child {
