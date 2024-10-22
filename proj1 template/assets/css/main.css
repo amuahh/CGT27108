@@ -58,6 +58,12 @@ footer, header, hgroup, menu, nav, section {
 	outline: none;
 	background: #dddddd;
 	cursor: pointer;
+
+	/*leaarn more pill*/
+	text-decoration: none; /* Remove underline for <a> tag */
+    display: inline-block; /* Ensure the <a> behaves like a button */
+    text-align: center; /* Center text */
+    color: black; /* Set text color to match buttons */
 }
 	
 .pill:not(.pill--selected):hover {
@@ -66,7 +72,7 @@ footer, header, hgroup, menu, nav, section {
 	
 	
 .pill--selected{
-	background: #009578;
+	background: #7D589F;
 	color: #ffffff;
 }
 	
@@ -198,7 +204,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #e5d0f9 !important;
+			color: #7D589F !important;
 		}
 
 	strong, b {
