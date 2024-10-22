@@ -91,6 +91,7 @@ footer, header, hgroup, menu, nav, section {
 	border: 20px solid #e7c5a3;
 	padding: 10px;
 	margin-top: 15px;
+	margin: 0px 33px;
 }
 	
 .card-container{
