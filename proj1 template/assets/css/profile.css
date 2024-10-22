@@ -132,7 +132,7 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
-	.bulletin{
+	.clubs{
 		display: grid;
 	}
 
@@ -2679,6 +2679,23 @@ input, select, textarea {
 
 /* Header */
 
+.logo img{
+	/*position: absolute;*/
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.first-logo{
+	max-width: 6%;
+	max-height: 6%;
+}
+
+.second-logo{
+	max-width: 10%;
+	max-height: 10%;
+}
+
+
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2723,7 +2740,7 @@ input, select, textarea {
 				color: #7d589f !important;
 			}
 
-		.bulletin{
+		.clubs{
 			display: flex;
 			gap: 10px;
 			-moz-flex-grow: 1;
@@ -3341,7 +3358,7 @@ input, select, textarea {
 				transform: translateX(-17em);
 			}
 
-			.bulletin{
+			.clubs{
 				display: grid; /* Use CSS Grid */
 				grid-template-columns: repeat(2, 1fr); /* 2 columns */
 				grid-template-rows: repeat(2, 1fr); /* 2 rows */
