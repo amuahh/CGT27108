@@ -344,7 +344,8 @@ input, select, textarea {
 	}
 		
 	.clubs{
-		display: flex;
+		display: flex;	
+		flex-wrap: wrap;
 		gap: 10px;
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;

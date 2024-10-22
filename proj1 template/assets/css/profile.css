@@ -3359,7 +3359,9 @@ input, select, textarea {
 			}
 
 			.clubs{
-				display: grid; /* Use CSS Grid */
+				/* display: grid; Use CSS Grid */
+				display: flex;	
+				flex-wrap: wrap;
 				grid-template-columns: repeat(2, 1fr); /* 2 columns */
 				grid-template-rows: repeat(2, 1fr); /* 2 rows */
 				gap: 10px; /* Space between grid items */
@@ -3368,7 +3370,9 @@ input, select, textarea {
 			}
 
 			.likes{
-				display: grid; /* Use CSS Grid */
+				/* display: grid; Use CSS Grid */
+				display: flex;	
+				flex-wrap: wrap;
 				grid-template-columns: repeat(3, 1fr); /* 2 columns */
 				grid-template-rows: repeat(2, 1fr); /* 2 rows */
 				gap: 10px; /* Space between grid items */
