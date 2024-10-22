@@ -29,6 +29,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/*header*/
+.logo img{
+	/*position: absolute;*/
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.first-logo{
+	max-width: 6%;
+	max-height: 6%;
+}
+
+.second-logo{
+	max-width: 10%;
+	max-height: 10%;
+}
+
+/*end of header css*/
+
 
 .pill{
 	font-size: 20px;
@@ -39,6 +58,12 @@ footer, header, hgroup, menu, nav, section {
 	outline: none;
 	background: #dddddd;
 	cursor: pointer;
+
+	/*leaarn more pill*/
+	text-decoration: none; /* Remove underline for <a> tag */
+    display: inline-block; /* Ensure the <a> behaves like a button */
+    text-align: center; /* Center text */
+    color: black; /* Set text color to match buttons */
 }
 	
 .pill:not(.pill--selected):hover {
@@ -47,7 +72,7 @@ footer, header, hgroup, menu, nav, section {
 	
 	
 .pill--selected{
-	background: #009578;
+	background: #7D589F;
 	color: #ffffff;
 }
 	
@@ -59,14 +84,13 @@ footer, header, hgroup, menu, nav, section {
 	
 #container{
 	/*display: flex;*/
-	margin-left: 20px;
-	margin-right: 20px;
 	align-items: center;
 	justify-content: center;
 	min-height: 600px;
 	background-color: #d4a276;
 	border: 20px solid #e7c5a3;
 	padding: 10px;
+	margin-top: 15px;
 }
 	
 .card-container{
@@ -88,6 +112,8 @@ footer, header, hgroup, menu, nav, section {
 	width: 100%;
 	height: auto;
 }
+
+/*end of bulletin board css*/
 
 
 
@@ -172,14 +198,13 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
 		color: inherit;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #e5d0f9 !important;
+			color: #7D589F !important;
 		}
 
 	strong, b {
@@ -300,6 +325,60 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+	.board{
+		/*display: flex;*/
+		align-items: center;
+		justify-content: center;
+		min-height: 600px;
+		background-color: #d4a276;
+		border: 20px solid #e7c5a3;
+		padding: 10px;
+	}
+
+	.bulletin{
+		display: flex;	
+		flex-wrap: wrap;
+		margin-top: 0px;
+	}
+		
+	.clubs{
+		display: flex;
+		gap: 10px;
+		-moz-flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+	}
+
+	.grid-item {
+		display: flex;
+		padding: 10px;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+		height: auto;
+		background-color: #E5D0F9;
+		color: #2F323A;
+		border: 3px solid #7D589F;
+		font-size: 20px;
+		border-radius: 30px;
+		text-align: center;
+		}
+
+	.card{
+		width:250px;
+		background-color: #ffffff;
+		border-radius:8px;
+		overflow: hidden;
+		box-shadow: 0px 2px 4px rgba (0, 0, 0, 0.2);
+		margin:20px;
+	}
+		
+	.card img{
+		width: 100%;
+		height: auto;
 	}
 
 /* Row */
@@ -1775,7 +1854,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
-		width: 45em;
+		width: 60em;
 	}
 
 		.container.xsmall {
